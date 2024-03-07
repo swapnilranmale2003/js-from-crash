@@ -53,11 +53,23 @@ const users =[
         name:"Soppy"
     }
 ]
-console.log(users[1])
+// console.log(users[1])
 
-console.log(Object.keys(tinderUser))
+// console.log(Object.keys(tinderUser))
 
-console.log(Object.entries(tinderUser))
+// console.log(Object.entries(tinderUser))
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 // console.log(tinderUser.hasOwnProperty('email'))
+
+
+// Object de-structure and JSON API intro 
+
+const course = {
+    name:"C",
+    price:499,
+    courseInstructor:"Sunny"
+}
+const{courseInstructor:Instructor} = course
+// console.log(courseInstructor)
+console.log(Instructor)
