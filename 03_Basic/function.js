@@ -63,7 +63,20 @@ const res = add(1, 2);
 
 //rest operator in function
 
-function calculateCart(...num1) {
+function calculateCart(val1, val2, ...num1) {
     return num1
 }
-console.log(calculateCart(1,2,3,4,5,6))
+// console.log(calculateCart(1,2,3,4,5,6))
+
+user = {
+    username:"anil",
+    price:499
+}
+function handleObject(anyObject) {
+    console.log(`username is ${anyObject.username} price is ${anyObject.price}`)    
+}
+// handleObject(user);
+handleObject({
+    username:"sam",
+    price:399
+});
