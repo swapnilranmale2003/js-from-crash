@@ -42,20 +42,28 @@ add(1, 2)//arguments
 
 
 function add(number1, number2) {  //using variable
-    return number1+number2;
- }
- const res = add(1, 2);
+    return number1 + number2;
+}
+const res = add(1, 2);
 //  console.log("result", res)
 
 //String interpolation in function 
-function loginUserMessage(username = "sam") {
-    if(username != undefined)
-    {
-    return `${username} just logged in`;
-    }
-    else{
-        console.log("user does not exist");
-    }
+// function loginUserMessage(username = "sam") {
+//     if(username != undefined)
+//     {
+//     return `${username} just logged in`;
+//     }
+//     else{
+//         console.log("user does not exist");
+//     }
 
+// }
+// console.log(loginUserMessage("kokkky"));
+
+
+//rest operator in function
+
+function calculateCart(...num1) {
+    return num1
 }
-console.log(loginUserMessage("kokkky"));
+console.log(calculateCart(1,2,3,4,5,6))
