@@ -48,8 +48,8 @@ function add(number1, number2) {  //using variable
 //  console.log("result", res)
 
 //String interpolation in function 
-function loginUserMessage(username) {
-    if(username != null)
+function loginUserMessage(username = "sam") {
+    if(username != undefined)
     {
     return `${username} just logged in`;
     }
@@ -58,4 +58,4 @@ function loginUserMessage(username) {
     }
 
 }
-console.log(loginUserMessage("localhost"));
+console.log(loginUserMessage("kokkky"));
