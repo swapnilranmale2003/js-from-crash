@@ -16,3 +16,7 @@ const dc_heros = ['superman', 'flash', 'batman'];
 // console.log(all_new_heros);
 
 
+const anotherArray = [1,2,4,[4,5],6, [7,8,[9]]];
+console.log(anotherArray)
+const realArray = anotherArray.flat(Infinity);
+console.log(realArray)
