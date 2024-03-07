@@ -49,6 +49,13 @@ function add(number1, number2) {  //using variable
 
 //String interpolation in function 
 function loginUserMessage(username) {
+    if(username != null)
+    {
     return `${username} just logged in`;
+    }
+    else{
+        console.log("user does not exist");
+    }
+
 }
-console.log(loginUserMessage("Sunny"));
+console.log(loginUserMessage("localhost"));
