@@ -17,6 +17,19 @@ const dc_heros = ['superman', 'flash', 'batman'];
 
 
 const anotherArray = [1,2,4,[4,5],6, [7,8,[9]]];
-console.log(anotherArray)
+// console.log(anotherArray)
 const realArray = anotherArray.flat(Infinity);
-console.log(realArray)
+// console.log(realArray)
+
+
+
+
+// console.log(Array.isArray("Swapnil"))
+// console.log(Array.from("Swapnil"))
+console.log(Array.from({name:"Sunny"}))
+
+const score1 = 100;
+const score2 = 200;
+const score3 = 300;
+
+console.log(Array.of(score1,score2,score3))
