@@ -9,7 +9,7 @@ function Sunny(params) {
     console.log("N");
     console.log("Y");
 }
-Sunny();
+// Sunny();
 
 // const sayName = () => {
 //     console.log("S");
@@ -45,5 +45,10 @@ function add(number1, number2) {  //using variable
     return number1+number2;
  }
  const res = add(1, 2);
- console.log("result", res)
- 
+//  console.log("result", res)
+
+//String interpolation in function 
+function loginUserMessage(username) {
+    return `${username} just logged in`;
+}
+console.log(loginUserMessage("Sunny"));
