@@ -14,4 +14,8 @@ const jsUser = {
 // console.log(jsUser["full name"])
 // console.log(jsUser["email"])
 
-console.log(typeof jsUser[mySym])
+// console.log(typeof jsUser[mySym])
+jsUser.email = "sunny@chagpt.com";
+Object.freeze(jsUser)
+jsUser.email = "sunny@microsoft.com";
+console.log(jsUser)
