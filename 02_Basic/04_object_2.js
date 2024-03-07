@@ -56,4 +56,5 @@ const users =[
 console.log(users[1])
 
 console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('email'))
