@@ -41,12 +41,21 @@ one();
 
 */
 
-if(true){
-    const username = "maxwell";
-    if(username==="maxwell"){
-        const websiteName = "youtube";
-        console.log(username+" " +websiteName)
-    }
-    // console.log(websiteName)
-}
+// if(true){
+//     const username = "maxwell";
+//     if(username==="maxwell"){
+//         const websiteName = "youtube";
+//         console.log(username+" " +websiteName)
+//     }
+//     // console.log(websiteName)
+// }
 // console.log(username)
+console.log(addOne(5))
+function addOne(num){
+    return num+1;
+}
+
+const addTwo = function(num){
+    return num+1;
+}
+console.log(addTwo(4))
