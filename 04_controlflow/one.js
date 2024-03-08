@@ -16,14 +16,29 @@ if(score>100){
 }
 console.log(`power fly:${power} `);
 */
-const score = 200;
-if(score>100){
-    let power = "fly";   //var is global scope 
-    // console.log(`power fly:${power} `);
-}
-// console.log(`power fly:${power} `);
+
+// const score = 200;
+// if(score>100){
+//     let power = "fly";   //var is global scope 
+//     console.log(`power fly:${power} `);
+// }
 
 //shorthand notation
-
+/*
 const balance = 1000;
 if(balance>500) console.log("test")
+*/
+
+const userLoggedIn = true
+const debitCard = true
+
+if(userLoggedIn && debitCard)
+{
+    console.log("Allow to buy courses");
+}
+
+const loggedInFromGoogle = true
+const loggedInFromEmail = false
+if(loggedInFromEmail||loggedInFromGoogle){
+    console.log("Logged in")
+}
