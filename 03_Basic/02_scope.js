@@ -27,7 +27,7 @@ console.log(c);
 */
 
 //Scope inside function
-
+/*
 function one(){
     const username = "sunny";
     function two(){
@@ -38,3 +38,15 @@ function one(){
     two();
 }
 one();
+
+*/
+
+if(true){
+    const username = "maxwell";
+    if(username==="maxwell"){
+        const websiteName = "youtube";
+        console.log(username+" " +websiteName)
+    }
+    // console.log(websiteName)
+}
+// console.log(username)
