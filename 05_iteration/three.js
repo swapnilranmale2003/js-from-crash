@@ -9,6 +9,21 @@ for (const greet of greeting){
     if(greet==" "){
     continue;
     }
-    console.log(`Each char is ${greet}`)
+    // console.log(`Each char is ${greet}`)
 
+}
+
+//Maps -->use to identify unique value
+
+const map = new Map();
+
+map.set("IN","INDIA");
+map.set("USA","UNITED STATES OF AMERICA");
+map.set("FR","FRANCE");
+// map.set("IN","INDIA"); //will not added in map
+// console.log(map)
+
+
+for (const [key, value] of map) {
+    console.log(key, ':-', value)
 }
