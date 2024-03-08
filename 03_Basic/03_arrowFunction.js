@@ -14,26 +14,35 @@ console.log(this)
 
 */
 
-const user = {
-    username: "kanndy"
-}
-function chai() {
-    // const username = "swapnil"
-    console.log(user.username)
+// const user = {
+//     username: "kanndy"
+// }
+// function chai() {
+//     // const username = "swapnil"
+//     console.log(user.username)
     
-}
-chai()
+// }
+// chai()
 
-function chai() {
-    let username = "swapnil";
-    console.log(this.username)
-}
-chai()
+// function chai() {
+//     let username = "swapnil";
+//     console.log(this.username)
+// }
+// chai()
 
 
-const chai =()=> {
-    let username = "swapnil";
-    console.log(this.username)
-}
-chai()
+// const chai =()=> {
+//     let username = "swapnil";
+//     console.log(this.username)
+// }
+// chai()
 
+// const addTwo = (num1, num2)=>{
+//     return num1+num2;
+// }
+// console.log(addTwo(2,3))
+
+//implicite return
+
+const addTwo = (num1, num2)=>num1+num2;
+console.log(addTwo(2,3))
