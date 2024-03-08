@@ -15,7 +15,7 @@ else{
 
 const emptyObj = {};
 if(Object.keys(emptyObj).length===0){
-    console.log("empty");
+    // console.log("empty");
 }
 
 //nullish coalescing operator ?? -->null undefined
@@ -25,5 +25,12 @@ let val1
 // val = null ?? 10
 // val = undefined ?? 10
 val = null ?? 10 ?? 20
+// console.log(val);
 
-console.log(val);
+
+//Ternary operator
+
+const iceTeaPrice = 100;
+iceTeaPrice>=80 
+? console.log("greater") 
+: console.log("less");
