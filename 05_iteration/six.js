@@ -35,19 +35,29 @@ const books = [
     {
         title:"Cpp",
         genre:"Programming",
-        publish:1979
+        publish:2006
     },
     {
         title:"JS",
         genre:"Scripting",
-        publish:1995
+        publish:2009
+    },
+    {
+        title:"php",
+        genre:"Scripting",
+        publish:2007
     },
     
 ]
 
 // console.log(books)
 
-const userBooks = books.filter((bk)=>{
+let userBooks = books.filter((bk)=>{
     return bk.genre==='Programming';
+})
+// console.log(userBooks)
+
+userBooks = books.filter((bk)=>{
+    return bk.publish>2000&&bk.genre =='Scripting'
 })
 console.log(userBooks)
