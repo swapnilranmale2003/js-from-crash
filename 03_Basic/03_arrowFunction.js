@@ -44,5 +44,14 @@ console.log(this)
 
 //implicite return
 
-const addTwo = (num1, num2)=>num1+num2;
+// const addTwo = (num1, num2)=>num1+num2;
+// console.log(addTwo(2,3))
+
+const addTwo = (num1, num2)=>({name:"elephant"});
 console.log(addTwo(2,3))
+
+// const myArr = [1,2,3,4,5,6];
+// const newArr = [34,56];
+// const newes=[];
+// console.log(...newes,...newArr)
+// console.log(newes)
