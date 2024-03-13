@@ -6,7 +6,6 @@
 //     (a, b) => a + b,
 //     total,
 // );
-
 // console.log(sum);
 
 const numbers = [10,20,30];
