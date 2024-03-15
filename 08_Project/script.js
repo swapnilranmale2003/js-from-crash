@@ -1,3 +1,5 @@
+// 1st Solution
+
 // const grayClick = () => {
 //     console.log("You clicked on gray button");
 //     document.body.style.backgroundColor = "gray";
@@ -14,6 +16,8 @@
 //     console.log("You clicked on yellow button");
 //     document.body.style.backgroundColor = "Yellow";
 // }
+
+// 2-------solution
 
 const buttons = document.querySelectorAll('.button');
 // console.log(buttons)
