@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async | JS</title>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+   
+    const sayHello = ()=>{
+        document.querySelector("h1").innerHTML = "JS";
+        console.log("Hello");
+    }
+    const ref1 = setTimeout(sayHello, 3000);
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(ref1);
+        console.log("Stopped")
+    })
+</script>
+</html>
